@@ -1,0 +1,51 @@
+.Room {
+  margin: 50px;
+}
+
+.room-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cam-box {
+  width: 60vw;
+  height: 37vw;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 1vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: gray;
+}
+
+.cam-box-item {
+  width: 25vw;
+  height: 15vw;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 1vw;
+  background-color: white;
+}
+
+.side-box {
+  width: 25vw;
+  height: 37vw;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 1vw;
+  background-color: gray;
+}
+
+.message-area {
+  height: 30vw;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
